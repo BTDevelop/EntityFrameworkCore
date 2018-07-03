@@ -7,7 +7,6 @@
 
   <ItemGroup>
     <DotNetCoreRuntime Include="$(MicrosoftNETCoreApp20PackageVersion)" />
-    <DotNetCoreRuntime Include="$(MicrosoftNETCoreApp22PackageVersion)" />
     <DotNetCoreRuntime Include="$(MicrosoftNETCoreApp30PackageVersion)" />
 
     <ExcludeFromTest Include="$(RepositoryRoot)samples\OracleProvider\test\OracleProvider.FunctionalTests\*.csproj" />
