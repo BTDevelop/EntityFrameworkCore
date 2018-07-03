@@ -6,16 +6,16 @@
         "packages": {
             "dotnet-ef": {
                 "packageTypes": [
-              "DotnetTool"
-            ],
+                    "DotnetTool"
+                ],
                 "Exclusions": {
-              "SERVICING_ATTRIBUTE": {
-                "tools/netcoreapp3.0/any/Newtonsoft.Json.dll": "External"
-              },
-              "WRONG_PUBLICKEYTOKEN": {
-                "tools/netcoreapp3.0/any/Newtonsoft.Json.dll": "External"
-              }
-            }
+                    "SERVICING_ATTRIBUTE": {
+                        "tools/netcoreapp3.0/any/Newtonsoft.Json.dll": "External"
+                    },
+                    "WRONG_PUBLICKEYTOKEN": {
+                        "tools/netcoreapp3.0/any/Newtonsoft.Json.dll": "External"
+                    }
+                }
             },
             "Microsoft.EntityFrameworkCore.Design": {
                 "Exclusions": {
